@@ -450,7 +450,7 @@ elif time_horizon == "c": # Medium Horizon
 elif time_horizon in ["a","b"]: # Short Horizon
     fund_suggestion = "Bond Funds and Money Market Funds"
 else:
-    fund_suggestion ="Broad Market Index Fund"
+    fund_suggestion ="Broad Market and Index Fund"
 
 # Reason of recommendation based on financial situation
 financial_situation_recommendation = ""
