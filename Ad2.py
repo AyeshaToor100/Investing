@@ -626,12 +626,11 @@ print("\n------------------------------------------------")
 print("PERSONALIZED RECOMMENDATION")
 print("------------------------------------------------")
 
-print(f"""Based on your responses, you have an {investor_profile} investment profile with a [Time Horizon] investment horizon, 
+print(f"""Based on your responses, you have an {investor_profile} investment profile with a {time_horizon} investment horizon, 
 and your primary goal is {investment_goal}. You have {income_stability} income stability, a {emergency_fund} emergency fund, 
 and are {comfortability} with temporary market declines. 
-Because {financial_situation_recommendation}, 
-your financial situation supports a {profile_strategy} strategy. A diversified portfolio consisting of approximately 
-{stocks_percentage} stocks and {bonds_percentage} bonds 
+Because {financial_situation_recommendation}, your financial situation supports a {profile_strategy} strategy. 
+A diversified portfolio consisting of approximately {stocks_percentage} stocks and {bonds_percentage} bonds 
 may align with your profile. This allocation aims to {project_objective}. 
 We recommend investing in {fund_suggestion}.""")
 
