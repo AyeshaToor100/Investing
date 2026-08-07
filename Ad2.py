@@ -288,7 +288,7 @@ elif investment_goal == "Grow wealth":
 
 if time_horizon == "Less than 3 years":
     score += 0
-elif time_horizon == "3–5 years":
+elif time_horizon == "3-5 years":
     score += 5
 elif time_horizon == "5–10 years":
     score += 10
@@ -504,7 +504,7 @@ time_horizon_advice = ""
 
 if time_horizon == "Less than 3 years":
     time_horizon_advice = "Because you may need this money soon, preserving your capital is generally more important than pursuing higher investment returns."
-elif time_horizon == "3–5 years":
+elif time_horizon == "3-5 years":
     time_horizon_advice = "Your investment horizon is relatively short, so balancing growth with stability may help reduce the impact of market fluctuations."
 elif time_horizon == "5–10 years":
     time_horizon_advice = "Your investment horizon allows you to pursue moderate long-term growth while still maintaining some portfolio stability."
